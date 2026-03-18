@@ -21,10 +21,10 @@
   <h1>Download Sample Files</h1>
   <p>Click on the buttons below to download the respective files.</p>
   
-  <button class="download-button" onclick="downloadFile('sample.pdf')">Download PDF</button>
-  <button class="download-button" onclick="downloadFile('sample.zip')">Download ZIP</button>
-  <button class="download-button" onclick="downloadFile('sample.png')">Download PNG</button>
-  <button class="download-button" onclick="downloadFile('sample.jpg')">Download JPG</button>
+  <button class="download-button" id="download-pdf" onclick="downloadFile('sample.pdf')">Download PDF</button>
+  <button class="download-button" id="download-zip" onclick="downloadFile('sample.zip')">Download ZIP</button>
+  <button class="download-button" id="download-png" onclick="downloadFile('sample.png')">Download PNG</button>
+  <button class="download-button" id="download-jpg" onclick="downloadFile('sample.jpg')">Download JPG</button>
 
   <script>
     function downloadFile(fileName) {
